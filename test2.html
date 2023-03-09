@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html> 
+<head>
+
+    <title> Itech - Contact page </title>
+
+<style> 
+.text { 
+width: 100% ;
+height: 150px;
+padding: 0;
+margin: 0;
+font-size: 16px;
+float:left;
+display: inline-block;
+box-sizing: border-box;
+background-color: #1b70a6;
+
+    }
+ header {
+ background-color: #1b70a6;
+  color: #fff;
+ padding: 20px 0;
+}
+
+.header-container {
+      display: flex;
+     align-items: center;
+     justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-box {
+  font-size: 18px;
+  text-align: center;
+  width: 25%;
+}
+
+.header-search-form {
+  display: flex;
+}
+
+.header-search-form input[type="text"] {
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  color: #1b70a6;
+  font-size: 16px;
+  font: caption;
+  font-
+  padding: 10px;
+  width: 70%;
+}
+.header-boxlogo{ 
+  width: 170px;
+  height: 69px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+
+}
+.header-box a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  form {
+  background-color: #1b70a6;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin: auto;
+  border-radius: 10px;
+  color: white;
+}
+
+label {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+input[type="email"] {
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: #1b70a6;
+}
+
+button[type="submit"] {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: white;
+  color: #1b70a6;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+.hoverbox {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 200px;
+  transition: transform 0.5s;
+}
+
+.hoverbox:hover {
+  transform: translate(150px);
+}
+
+
+#image {
+    width: 1084px;
+  height: 92px;
+  transition: opacity 0.5s;
+}
+
+#image:hover {
+  opacity: 0;
+}
+
+#image:hover + #image2 {
+  opacity: 1;
+}
+
+#image2 {
+    width: 678px;
+  height: 277px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.containerother {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .boxother {
+        width: 100%;
+        height: 80%;
+        background-color: #f1f1f1;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .inner-boxother {
+        width: 22.5%;
+        height: 90%;
+        background-color: white;
+        border-radius: 15px;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .hoverimage{
+        width:  22.5%;
+        height:  90%;
+        background-color: white;
+        text-align: center;
+        line-height: 200px;
+        transition: transform 0.5s;
+        border-radius: 15px;
+        justify-content: center;
+        margin: 10px;
+}
+      .imageforbox{ 
+        width: 22.5% ;
+        height: 92%;
+        background-color: white;
+        text-align: center;
+        line-height: 200px;
+        transition: transform 0.5s;
+        border-radius: 6px;
+        justify-content: center;
+        margin: 10px;
+
+      }
+      .titlecontainer{ 
+        width: 22.5%;
+        height: 90%;
+        background-color: #f1f1f1;
+        border-radius: 15px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        float: left;
+
+      }
+      .titlebox{ 
+        width: 100%;
+        height: 110.25px;
+        background-color: #f1f1f1;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .infobox{ 
+        width: 100%;
+        height: 335.25px;
+        background-color:white;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+.hoverimage:hover {
+  transform: translate(221px);
+}
+  .box{
+    background-color: lightpink;
+    width: 100%;
+    height: 200px;
+  }
+
+ .box-text {
+  font-size: 16px;
+}</style>
+      
+
+
+</style>
+
+
+</head>
+<body> 
+
+  <header>
+    <div class="header-container">
+      <a href="home_page.html">
+      <div class="header-box header-boxlogo">
+        <img src="logo.jpg" alt="the logo" width="170" height="69"> <a href="home_page.html" > 
+      </div>
+    </a>
+      <div class="header-box header-box-parts-of-the-pc">
+        <a href="parts_pc.html">Parts of the PC</a>
+      </div>
+      <div class="header-box header-box-trusted-retailers">
+        <a href="trusted_retailers.html">Trusted Retailers</a>
+      </div>
+      <div class="header-box header-box-other-types-of-computers">
+        <a href="other_types_of_pcs.html">Other Types of Computers</a>
+      </div>
+      <div class="header-box header-box-contact-us">
+        <a href="contact_page.html">Contact Us</a>
+      </div>
+      <form class="header-search-form">
+        <input type="text" placeholder="Search...">
+        <button type="submit">Go</button>
+      </form>
+    </div>
+    
+  </header>
+
+
+
+<h1><b><u><i><center>THIS IS A TEST PAGE NOT A COPYRIGHT PAGE!!!!</center></i></u></b></h1>
+
+
+
+  <div class="hoverbox">
+    Hover over me!
+  </div>
+
+
+
+
+  <img src="footer.JPG" class="hoverimage" id="image">
+  <img src="logo.JPG" class="hoverimage" id="image2">
+
+
+
+
+  <div style="display: flex; flex-direction: column;">
+    <div style="display: flex;   border-radius: 15px; background-color: #f1f1f1; width: 100% ; height: 420px;justify-content: center; align-items: center;">
+      
+      <div style="width: 32.5%; height: 400px;   border-radius: 15px; background-color: lightblue; margin-right: 10px; float: left;"></div>
+      <div style="width: 32.5%; height: 400px;   border-radius: 15px; background-color: lightblue; margin-right: 10px; float: left;"></div>
+      <div style="width: 32.5%; height: 400px; background-color: #f1f1f1  ; float: left;">
+        <div style="width: 100%; height: 195px;   border-radius: 15px ; background-color: pink; margin-bottom: 10px; float: left;"></div>
+        <div style="width: 100%; height: 195px;   border-radius: 15px ;background-color: pink; float: left;"></div>     
+      </div>
+    </div>
+ <!--box left-->
+ <div style="display: flex; flex-direction: column;">
+  <div style="display: flex;   border-radius: 15px; background-color: #f1f1f1; width: 100% ; height: 420px; justify-content: center; align-items: center;">
+    
+    <div style="width: 32.5%; height: 400px;   border-radius: 15px; background-color: lightblue; margin-right: 10px; float: left;"></div>
+    <div style="width: 32.5%; height: 400px; background-color: #f1f1f1  ; float: left; margin-right: 10px;">
+      <div style="width: 100%; height: 195px;   border-radius: 15px ; background-color: pink; margin-bottom: 10px; float: left;"></div>
+      <div style="width: 100%; height: 195px;   border-radius: 15px ;background-color: pink; float: left;"></div> 
+    </div>
+    <div style="width: 32.5%; height: 400px;   border-radius: 15px; background-color: lightblue; margin-right: 10px; float: left;"></div>    
+  
+  </div>
+<!--box middle-->
+<div style="display: flex; flex-direction: column;">
+  <div style="display: flex;   border-radius: 15px; background-color: #f1f1f1; width: 100% ; height: 420px;justify-content: center; align-items: center;">
+    
+    <div style="width: 32.5%; height: 400px; background-color: #f1f1f1  ; float: left; margin-right: 10px;">
+      <div style="width: 100%; height: 195px;   border-radius: 15px ; background-color: pink; margin-bottom: 10px; float: left;"></div>
+      <div style="width: 100%; height: 195px;   border-radius: 15px ;background-color: pink; float: left;"></div> 
+    </div>
+    <div style="width: 32.5%; height: 400px;   border-radius: 15px; background-color: lightblue; margin-right: 10px; float: left;"></div>
+    <div style="width: 32.5%; height: 400px;   border-radius: 15px; background-color: lightblue; margin-right: 10px; float: left;"></div>    
+
+  </div>
+<!--box left-->
+
+
+
+<!--image far left-->
+
+<div class="containerother"><!--boxes for other types of computers-->
+  <div class="boxother">
+
+    <div class="imageforbox">1</div><!--box for image-->
+    <div class="titlecontainer"><!--box with title inside-->
+      <div class="titlebox"> This is the title </div>
+      <div class="infobox">  2 </div>
+    </div>
+    <div class="inner-boxother">3</div><!--other info boxes -->
+    <div class="inner-boxother">4</div><!--other info boxes -->
+  </div>
+</div>
+
+<div class="containerother">
+  <div class="boxother">
+
+    <div class="titlecontainer"> 
+      <div class="titlebox"> This would be the title</div>
+      <div class="infobox"> 1 </div>
+    </div>
+    <div class="inner-boxother"> 2 </div> 
+    <div class="inner-boxother"> 3 </div>
+    <div class="imageforbox"> 4 </div>
+    </div>
+  </div>
+</div>
+
+<!-- this iss modular it is safe to move each box around just be sure to close the div for thtititle box toehr wise brakes as per below-->
+<div class="containerother">
+  <div class="boxother">
+
+    <div class="titlecontainer"> 
+      <div class="titlebox"> This would be the title - this is also and exsample of a broken one for my own knolage</div>
+      <div class="infobox"> 1 </div>
+<!--div should be here-->
+    <div class="inner-boxother"> 2 </div> 
+    <div class="inner-boxother"> 3 </div>
+    <div class="imageforbox"> 4 </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <div class="box"><p class="box-text">To determine the quality of a motherboard, you should consider several factors. Firstly, look at the chipset used in the motherboard and make sure it is compatible with your desired processor. Additionally, check the number of RAM slots and their maximum supported memory capacity. The more RAM slots and higher memory capacity, the better. Furthermore, consider the number and type of ports offered, including USB, SATA, and PCIe, to ensure they meet your needs. Finally, consider the build quality, brand reputation, and customer reviews to gauge the reliability and longevity of the motherboard. Keep in mind that a good motherboard is the foundation of a solid computer system, so it is important to invest in a quality product.</p></div>
+
+
+
+
+<br> 
+
+<footer style="background-color: #eaeaea; width: 100%; bottom: 0;">
+  <div class="container">
+    <div class="footerimg"><p> <center></p> <img src="footer.JPG" alt="footer info" ></center> <a href="test2.html" > </div>
+    <p style="margin: 10px 0;"><center>Copyright © 2023 Your Website</center></p>
+    <p style="margin: 10px 0;"><center>All rights reserved</center></p>
+    <ul style="list-style: none; display: flex; justify-content: center;">
+      <li style="margin: 0 10px;"><a href="contact_page.html">Contact</a></li>
+      <li style="margin: 0 10px;"><a href="boucedlink.html">Privacy Policy</a></li>
+      <li style="margin: 0 10px;"><a href="boucedlink.html">Terms of Use</a></li>
+      <li style="margin: 0 10px;"><a href="boucedlink.html">Give Feedback</a></li>
+    </ul>
+  </div>
+</footer>
+
+
+  </body>
+</html>

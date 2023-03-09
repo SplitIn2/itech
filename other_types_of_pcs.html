@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html> 
+<head>
+
+    <title> Itech - Contact page </title>
+
+<style> 
+.text { 
+width: 100% ;
+height: 150px;
+padding: 0;
+margin: 0;
+font-size: 16px;
+float:left;
+display: inline-block;
+box-sizing: border-box;
+background-color: #1b70a6;
+
+    }
+ header {
+ background-color: #1b70a6;
+  color: #fff;
+ padding: 20px 0;
+}
+
+.header-container {
+      display: flex;
+     align-items: center;
+     justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-box {
+  font-size: 18px;
+  text-align: center;
+  width: 25%;
+}
+
+.header-search-form {
+  display: flex;
+}
+
+.header-search-form input[type="text"] {
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  color: #1b70a6;
+  font-size: 16px;
+  font: caption;
+  font-
+  padding: 10px;
+  width: 70%;
+}
+.header-boxlogo{ 
+  width: 170px;
+  height: 69px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+
+}
+.header-box a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  form {
+  background-color: #1b70a6;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin: auto;
+  border-radius: 10px;
+  color: white;
+}
+
+label {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+input[type="email"] {
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: #1b70a6;
+}
+
+button[type="submit"] {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: white;
+  color: #1b70a6;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.containerother {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .boxother {
+        width: 100%;
+        height: 80%;
+        background-color: #f1f1f1;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .inner-boxother {
+        width: 22.5%;
+        height: 90%;
+        background-color: white;
+        border-radius: 15px;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .hoverimage{
+        width:  22.5%;
+        height:  90%;
+        background-color: white;
+        text-align: center;
+        line-height: 200px;
+        transition: transform 0.5s;
+        border-radius: 15px;
+        justify-content: center;
+        margin: 10px;
+}
+
+.hoverimage:hover {
+  transform: translate(221px);
+}
+.containerother {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .boxother {
+        width: 100%;
+        height: 80%;
+        background-color: #f1f1f1;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .inner-boxother {
+        width: 22.5%;
+        height: 90%;
+        background-color: white;
+        border-radius: 15px;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .hoverimage{
+        width:  22.5%;
+        height:  90%;
+        background-color: white;
+        text-align: center;
+        line-height: 200px;
+        transition: transform 0.5s;
+        border-radius: 15px;
+        justify-content: center;
+        margin: 10px;
+}
+      .imageforbox{ 
+        width: 22.5% ;
+        height: 92%;
+        background-color: white;
+        text-align: center;
+        line-height: 200px;
+        transition: transform 0.5s;
+        border-radius: 6px;
+        justify-content: center;
+        margin: 10px;
+
+      }
+      .titlecontainer{ 
+        width: 22.5%;
+        height: 90%;
+        background-color: #f1f1f1;
+        border-radius: 15px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        float: left;
+
+      }
+      .titlebox{ 
+        width: 100%;
+        height: 25px;
+        background-color: #f1f1f1;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .infobox{ 
+        width: 100%;
+        height: 75px;
+        background-color:white;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+</style>
+
+
+</head>
+<body> 
+
+  <header>
+    <div class="header-container">
+      <a href="home_page.html">
+      <div class="header-box header-boxlogo">
+        <img src="logo.jpg" alt="the logo" width="170" height="69"> <a href="home_page.html" > 
+      </div>
+    </a>
+      <div class="header-box header-box-parts-of-the-pc">
+        <a href="parts_pc.html">Parts of the PC</a>
+      </div>
+      <div class="header-box header-box-trusted-retailers">
+        <a href="trusted_retailers.html">Trusted Retailers</a>
+      </div>
+      <div class="header-box header-box-other-types-of-computers">
+        <a href="other_types_of_pcs.html">Other Types of Computers</a>
+      </div>
+      <div class="header-box header-box-contact-us">
+        <a href="contact_page.html">Contact Us</a>
+      </div>
+      <form class="header-search-form">
+        <input type="text" placeholder="Search...">
+        <button type="submit">Go</button>
+      </form>
+    </div>
+    
+  </header>
+
+
+
+
+
+
+</div>
+<h1><u>What other devices are there and how can you tell weather there good?</u></h1>
+<div class="boxother">
+<p>So as you may know there are mamy diffrent types of devices out ther although all devices there are have diffrent specs to look for. Although a phone may be expencive some times doesnt ean there good and thats why where here. we aim to give you the knolage oh what tech is good and which is bad and advised to avoid. </p>
+</div>
+
+
+
+<div class="containerother"><!--phone-->
+  <div class="boxother">
+
+
+    <div class="imageforbox"> imager </div>
+    <div class="titlecontainer"> 
+      <div class="titlebox" > <h2><u>Phones</u></h2></div>
+      <div class="infobox"> <h4><u>what is a phone?</u></h4>   </div> 
+      <p>A phone is a handheld device designed for communication, which allows users to make and receive calls, send and receive messages, and access the internet. Typically, a phone is equipped with a screen, a microphone, a speaker, and various buttons or touch-sensitive areas for input. Modern smartphones also feature a wide range of additional functions, including cameras, media players, GPS navigation, and app stores. Phones have become an essential part of modern life, allowing people to stay connected with friends and family, access information, and conduct business from anywhere in the world.</p>
+    
+    </div>
+    <div class="inner-boxother"> 
+    <h4><u>what specs/features should you look for?</u></h4>
+    </div> 
+    <div class="inner-boxother"> 
+    <h4><u>Which would we recomend?</u></h4>
+    </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="containerother"><!--tablets-->
+  <div class="boxother">
+
+  
+
+    <div class="inner-boxother"> 
+    <h4><u>what specs/features should you look for?</u></h4>
+    </div> 
+    <div class="inner-boxother"> 
+      <h4><u>Which would we recomend?</u></h4>
+      </div>
+    <div class="titlecontainer"> 
+      <div class="titlebox"> <h2><u>Tablets</u></h2></div>
+      <div class="infobox"> <h4><u>what is a tablet?</u></h4> </div>
+    </div>
+    <div class="imageforbox"> imager </div>
+
+
+    </div>
+  </div>
+</div>
+
+<div class="containerother"><!--laptops-->
+  <div class="boxother">
+
+
+    <div class="imageforbox"> imager </div>
+    <div class="titlecontainer"> 
+      <div class="titlebox"> <h2><u>laptops</u></h2></div>
+      <div class="infobox"> <h4><u>what is a laptop?</u></h4> </div>
+    </div>
+    <div class="inner-boxother"> 
+    <h4><u>what specs/features should you look for?</u></h4>
+    </div> 
+    <div class="inner-boxother"> 
+    <h4><u>Which would we recomend?</u></h4>
+    </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="containerother"><!--speekers-->
+  <div class="boxother">
+
+    <div class="inner-boxother"> 
+      <h4><u>what specs/features should you look for?</u></h4>
+      </div> 
+      <div class="inner-boxother"> 
+      <h4><u>Which would we recomend?</u></h4>
+      </div>
+    <div class="titlecontainer"> 
+      <div class="titlebox"> <h2><u>speakers</u></h2></div>
+      <div class="infobox"> <h4><u>what is a speaker?</u></h4> </div>
+    </div>
+    <div class="imageforbox"> imager </div>
+
+
+    </div>
+  </div>
+</div>
+
+<h2><u>So what is the conclushion?</u></h2>
+<div class="boxother">
+<br>
+<p> this where when text concludes the diffrent types of pcs </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br> 
+
+<footer style="background-color: #eaeaea; width: 100%; bottom: 0;">
+  <div class="container">
+    <div class="footerimg"><p> <center></p> <img src="footer.JPG" alt="footer info" ></center> <a href="test2.html" > </div>
+    <p style="margin: 10px 0;"><center>Copyright © 2023 Your Website</center></p>
+    <p style="margin: 10px 0;"><center>All rights reserved</center></p>
+    <ul style="list-style: none; display: flex; justify-content: center;">
+      <li style="margin: 0 10px;"><a href="contact_page.html">Contact</a></li>
+      <li style="margin: 0 10px;"><a href="boucedlink.html">Privacy Policy</a></li>
+      <li style="margin: 0 10px;"><a href="boucedlink.html">Terms of Use</a></li>
+      <li style="margin: 0 10px;"><a href="boucedlink.html">Give Feedback</a></li>
+    </ul>
+  </div>
+</footer>
+
+
+  </body>
+</html>
